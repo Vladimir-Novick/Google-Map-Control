@@ -1,0 +1,64 @@
+#searchwell {
+  width : 330px;
+}
+
+#searchwell .unselected {
+  padding-left: 18px;
+  padding-top: 1px;
+  margin-top: 5px;
+  background-image: url("http://labs.google.com/ridefinder/images/mm_20_yellow.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.unselected .gs-watermark {
+  display: none;
+}
+
+
+.overTab 
+{
+  overflow:scroll;
+  height:auto !important;
+  height:200px;
+      
+}
+
+.contextmenu{
+    visibility:hidden;
+    background:#d2d9e3;
+    border:1px solid #9ba7b7;
+    z-index: 100;  
+    position: relative;
+    width: 140px;
+}
+
+
+.context 
+{
+	border-bottom:1px solid #9ba7b7;
+}
+
+.contextmenu div{
+    padding-left: 0px;
+    cursor:pointer;cursor:hand;
+    }
+
+
+.unselected .gs-directions {
+  display: none;
+}
+
+.unselected .gs-directions-to-from {
+  display: none;
+}
+
+.unselected .select {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #7777cc;
+}
+
+#searchwell .red {
+  background-image: url("http://labs.google.com/ridefinder/images/mm_20_red.png");
+}
